@@ -1,0 +1,10 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Hello World example
+ */
+
+grammar hello;
+
+public <greet> = (one | two | three | four 
+| five | six |seven );
