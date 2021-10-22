@@ -16,9 +16,6 @@ import java.net.URL;
 
 public class HelloWorld {
 
-    /**
-     * Main method for running the HelloWorld demo.
-     */
     public static void main(String[] args) {
         try {
             URL url;
@@ -36,10 +33,10 @@ public class HelloWorld {
 	    Microphone microphone = (Microphone) cm.lookup("microphone");
 
 
-            /* allocate the resource necessary for the recognizer */
+            /*reconnaissance vocale*/
             recognizer.allocate();
 
-            /* the microphone will keep recording until the program exits */
+            /* microphone nan ap continuer record toutotan prigram nan ap run */
 	    if (microphone.startRecording()) {
 
 
