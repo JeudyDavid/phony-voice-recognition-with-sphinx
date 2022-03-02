@@ -42,7 +42,7 @@ public class HelloWorld {
 
 		while (true) {
 		    System.out.println
-			("Start speaking. Press Ctrl-C to quit.\n");
+			("vous pouvez commencer a parler. Press Ctrl-C to quit.\n");
 		    Result result = recognizer.recognize();
 		    
 		    if (result != null) {
@@ -63,7 +63,7 @@ public class HelloWorld {
 		    
 		}
 	    } else {
-		System.out.println("Cannot start microphone.");
+		System.out.println("le micro ne peut pa se lsancer.");
 		recognizer.deallocate();
 		System.exit(1);
 	    }
